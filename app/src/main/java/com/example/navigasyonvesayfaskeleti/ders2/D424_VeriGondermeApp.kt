@@ -60,11 +60,9 @@ fun AnketSayfasi(navController: NavController) {
             Button(onClick = { navController.navigate("sonuc_sayfasi/Kırmızı") }) {
                 Text("Kırmızı")
             }
-
             Button(onClick = { navController.navigate("sonuc_sayfasi/Mavi") }) {
                 Text("Mavi")
             }
-
         }
     }
 }
@@ -89,7 +87,6 @@ fun SonucSayfasi(navController: NavController, renk: String?) {
         Button(onClick = { navController.popBackStack() }) {
             Text("Geri Dön ")
         }
-
     }
 }
 
