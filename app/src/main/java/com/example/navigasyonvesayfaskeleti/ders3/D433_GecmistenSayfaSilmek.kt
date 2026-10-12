@@ -85,6 +85,7 @@ fun D433_GecmistenSayfaSilmek(modifier: Modifier = Modifier) {
 
                 }) {
                     Text("Anasayfaya Dön")
+
                 }
             }
         }
