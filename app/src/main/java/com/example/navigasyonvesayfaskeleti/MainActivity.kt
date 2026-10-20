@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.navigasyonvesayfaskeleti.ders4.D445_TypeSafeETicaret
+import com.example.navigasyonvesayfaskeleti.ders6.D462_AltMenuTasarimi
 import com.example.navigasyonvesayfaskeleti.ui.theme.GR01_MYM_M4_NavigasyonVeSayfaİskeletiTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,14 +18,19 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             GR01_MYM_M4_NavigasyonVeSayfaİskeletiTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    D445_TypeSafeETicaret(modifier= Modifier.padding(innerPadding))
+            //    Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+              //      D445_TypeSafeETicaret(modifier= Modifier.padding(innerPadding))
 
 
 
 
 
-                }
+              //  }
+
+                //Ders 6
+                D462_AltMenuTasarimi()
+
+
             }
         }
     }
