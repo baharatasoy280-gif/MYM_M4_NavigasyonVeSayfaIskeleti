@@ -10,6 +10,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.navigasyonvesayfaskeleti.ders4.D445_TypeSafeETicaret
 import com.example.navigasyonvesayfaskeleti.ders6.D462_AltMenuTasarimi
+import com.example.navigasyonvesayfaskeleti.ders7.D472_ModalNavigationDrawer
+import com.example.navigasyonvesayfaskeleti.ders7.D475_HaberPortaliSiraSende
+import com.example.navigasyonvesayfaskeleti.ders7.HaberDrawerHeader
 import com.example.navigasyonvesayfaskeleti.ui.theme.GR01_MYM_M4_NavigasyonVeSayfaİskeletiTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +31,12 @@ class MainActivity : ComponentActivity() {
               //  }
 
                 //Ders 6
-                D462_AltMenuTasarimi()
+              //  D462_AltMenuTasarimi()
+
+               // Ders-7
+
+             //   D472_ModalNavigationDrawer()
+                D475_HaberPortaliSiraSende()
 
 
             }
