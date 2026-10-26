@@ -13,6 +13,8 @@ import com.example.navigasyonvesayfaskeleti.ders6.D462_AltMenuTasarimi
 import com.example.navigasyonvesayfaskeleti.ders7.D472_ModalNavigationDrawer
 import com.example.navigasyonvesayfaskeleti.ders7.D475_HaberPortaliSiraSende
 import com.example.navigasyonvesayfaskeleti.ders7.HaberDrawerHeader
+import com.example.navigasyonvesayfaskeleti.ders8.D482_UstSekmeTasarimi
+import com.example.navigasyonvesayfaskeleti.ders8.D485_HaberKategorileri_SiraSende
 import com.example.navigasyonvesayfaskeleti.ui.theme.GR01_MYM_M4_NavigasyonVeSayfaİskeletiTheme
 
 class MainActivity : ComponentActivity() {
@@ -36,8 +38,11 @@ class MainActivity : ComponentActivity() {
                // Ders-7
 
              //   D472_ModalNavigationDrawer()
-                D475_HaberPortaliSiraSende()
+             //   D475_HaberPortaliSiraSende()
+                //Ders-8
+               // D482_UstSekmeTasarimi()
 
+                D485_HaberKategorileri_SiraSende()
 
             }
         }
