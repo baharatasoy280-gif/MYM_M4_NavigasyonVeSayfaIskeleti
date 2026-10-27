@@ -15,6 +15,7 @@ import com.example.navigasyonvesayfaskeleti.ders7.D475_HaberPortaliSiraSende
 import com.example.navigasyonvesayfaskeleti.ders7.HaberDrawerHeader
 import com.example.navigasyonvesayfaskeleti.ders8.D482_UstSekmeTasarimi
 import com.example.navigasyonvesayfaskeleti.ders8.D485_HaberKategorileri_SiraSende
+import com.example.navigasyonvesayfaskeleti.ders9.D492_SayfaGecisAnimasyonlari
 import com.example.navigasyonvesayfaskeleti.ui.theme.GR01_MYM_M4_NavigasyonVeSayfaİskeletiTheme
 
 class MainActivity : ComponentActivity() {
@@ -42,7 +43,10 @@ class MainActivity : ComponentActivity() {
                 //Ders-8
                // D482_UstSekmeTasarimi()
 
-                D485_HaberKategorileri_SiraSende()
+              //  D485_HaberKategorileri_SiraSende()
+
+                //Ders -9
+                D492_SayfaGecisAnimasyonlari()
 
             }
         }
